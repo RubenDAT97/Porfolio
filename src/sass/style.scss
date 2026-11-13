@@ -208,7 +208,8 @@
     img {
         position: absolute;
         bottom: -55px;
-        transform: translateY(-20%);
+        transform: translateX(-20%)
+                translateY(-30%);
         width: 200px;
         overflow: hidden;
         @include abs.breakpoint(tablet) {
